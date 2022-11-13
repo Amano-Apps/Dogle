@@ -2,7 +2,6 @@
 
     namespace Shiroaky\Dogle\Utils;
 
-    use Shiroaky\Dogle\Interfaces\Assets_interface;
     use Shiroaky\Dogle\Utils\Url;
 
     class Assets
