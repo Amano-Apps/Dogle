@@ -2,8 +2,6 @@
 
     namespace Shiroaky\Dogle\Interfaces;
 
-    use Closure;
-
     interface RouterInterface
     {
 
