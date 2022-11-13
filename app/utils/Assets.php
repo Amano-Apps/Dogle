@@ -5,15 +5,16 @@
     use Shiroaky\Dogle\Interfaces\Assets_interface;
     use Shiroaky\Dogle\Utils\Url;
 
-    class Assets implements Assets_interface
+    class Assets
     {
 
-        private static string $base_path = '../../public/';
-
+        /**
+         * @param string $asset The assets element.
+         * @return string $asset_path The asset include path.
+         */
         public static function import(string $asset)
         {
-            // echo self::$base_path . $asset;
-            // echo Url::get_assets_path();
+            echo Url::get_assets_path() . $asset;
         }
 
     }
