@@ -25,6 +25,7 @@
         flex-direction: column; 
         align-items: center; 
         justify-content: center; 
+        gap: 8px;
         background-color: #293241; 
         color: #f2f2f2; 
     }
@@ -37,11 +38,13 @@
     }
     .ion-md-heart {
         color: red;
+        font-size: 3rem;
     }
 </style>
 <body>
 
-    <h1>Wellcome to Dogle Framework <i class="icon ion-md-heart"></i></h1>
+    <h1>Wellcome to Dogle Framework</h1>
+    <h2><i class="icon ion-md-heart"></i></h2>
     
 </body>
 </html>
