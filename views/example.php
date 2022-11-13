@@ -1,7 +1,8 @@
 <?php use Shiroaky\Dogle\Utils\Assets; ?>
+<?php use Shiroaky\Dogle\Utils\Preferences; ?>
 
 <!DOCTYPE html>
-<html lang="es">
+<html lang="<?php Preferences::getLocate(); ?>">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
