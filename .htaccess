@@ -1,0 +1,7 @@
+# Disable directory browsing:
+RewriteCond %{SCRIPT_FILENAME} -d [OR]
+RewriteCond %{SCRIPT_FILENAME} -f
+RewriteRule "(^|/)\." - [F]
+
+# Disable directory access:
+Options All -Indexes
